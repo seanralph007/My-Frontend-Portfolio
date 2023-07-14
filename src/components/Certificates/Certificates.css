@@ -1,0 +1,134 @@
+.certificate-container {
+  max-width: 768px;
+}
+
+.certificate-tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: var(--mb-2);
+}
+
+.certificate-button {
+  font-size: var(--h3-font-size);
+  font-weight: var(--font-medium);
+  color: var(--title-color-dark);
+  margin: 0 var(--mb-1);
+  cursor: pointer;
+}
+
+.certificate-button:hover {
+  color: var(--title-color);
+}
+
+.certificate-icon {
+  font-size: 1.8rem;
+  margin-right: var(--mb-0-25);
+}
+
+.certificate-active {
+  color: var(--title-color);
+}
+
+.certificate-sections {
+  display: grid;
+  grid-template-columns: 0.5fr;
+  justify-content: center;
+}
+
+.certificate-content {
+  display: none;
+}
+
+.certificate-content-active {
+  display: block;
+}
+
+.certificate-data {
+  display: grid;
+  grid-template-columns: 1fr max-content 1fr;
+  column-gap: 1.5rem;
+}
+
+.certificate-title {
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-medium);
+}
+
+.certificate-subtitle {
+  display: inline-block;
+  font-size: var(--small-font-size);
+  margin-bottom: var(--mb-1);
+}
+
+.certificate-calendar {
+  font-size: var(--small-font-size);
+}
+
+.certificate-rounder {
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  background-color: #64ffda;
+  border-radius: 50%;
+}
+
+.certificate-line {
+  display: block;
+  width: 1px;
+  height: 100%;
+  background-color: #64ffda;
+  transform: translate(6px, -7px);
+}
+
+/* large device */
+@media screen and (max-width: 992px) {
+  .certificate-container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* medium device */
+@media screen and (max-width: 768px) {
+  .certificate-container {
+    margin-left: var(--mb-1-5);
+    margin-right: var(--mb-1-5);
+  }
+  .certificate-sections {
+    grid-template-columns: initial;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .certificate-sections {
+    grid-template-columns: initial;
+  }
+
+  .certificate-button {
+    margin: 0 var(--mb-0-75);
+  }
+}
+
+/* small device */
+@media screen and (max-width: 370px) {
+  .certificate-sections {
+    grid-template-columns: initial;
+  }
+
+  .certificate-container {
+    margin: 0;
+  }
+
+  .certificate-data {
+    column-gap: 0.5rem;
+  }
+}
+@media screen and (max-width: 280px) {
+  .certificate-sections {
+    grid-template-columns: initial;
+  }
+
+  .certificate-data {
+    column-gap: 0.1rem;
+  }
+}
