@@ -67,7 +67,7 @@ const About = () => {
             </p>
             <p>
               I have worked on a variety of projects throughout my career,
-              closely coordinating with{" "}
+              closely coordinating with
               <span> designers, and back-end developers</span>, to generate
               high-quality solutions that surpass customer expectations. Because
               of my proficiency with current frontend frameworks and libraries,

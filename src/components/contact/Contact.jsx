@@ -44,7 +44,7 @@ const Contact = () => {
               </a>
             </div>
 
-            <div className="contact-card">
+            {/* <div className="contact-card">
               <i className="bx bxl-whatsapp contact-card-icon"></i>
 
               <h3 className="contact-card-title">Whatsapp</h3>
@@ -59,7 +59,7 @@ const Contact = () => {
                 write me{" "}
                 <i className="bx bx-right-arrow-alt contact-button-icon"></i>
               </a>
-            </div>
+            </div> */}
 
             <div className="contact-card">
               <i className="bx bxl-twitter contact-card-icon"></i>
