@@ -52,7 +52,9 @@ const Contact = () => {
 
               <a
                 href="https://api.whatsapp.com/send?phone=07069200690&text=Hello, more information!"
+                rel="noopener noreferrer"
                 className="contact-button"
+                target="_blank"
               >
                 write me{" "}
                 <i className="bx bx-right-arrow-alt contact-button-icon"></i>
@@ -66,8 +68,10 @@ const Contact = () => {
               <span className="contact-card-data">Ifeanyi_arochim</span>
 
               <a
-                href="https://twitter.com/Ifeanyi_arochim"
+                href="https://www.twitter.com/Ifeanyi_arochim"
+                rel="noopener noreferrer"
                 className="contact-button"
+                target="_blank"
               >
                 write me
                 <i className="bx bx-right-arrow-alt contact-button-icon"></i>
@@ -117,7 +121,8 @@ const Contact = () => {
               ></textarea>
             </div>
 
-            <button className="button button-flex">
+            <button className="button-flex-home">
+              <span className="button-flex-home-span"></span>
               Send Message
               <svg
                 className="button__icon"

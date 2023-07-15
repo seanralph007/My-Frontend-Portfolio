@@ -1,6 +1,5 @@
 import React from "react";
 
-
 const Data = () => {
   return (
     <div className="home-data">
@@ -57,13 +56,18 @@ const Data = () => {
         my name is,
       </p>
       <h1 className="home-title">Ezeugwu Ifeanyi</h1>
-      <h1 className="home-description">i build things for the web</h1>
+      <h1 className="home-description">I build things for the web</h1>
       <p className="home-intro2">
         I am a passionate <span>frontend developer</span> with expertise in
         creating beautiful and responsive user interfaces, skilled in Frontend
         Frameworks.
       </p>
-      <a href="#contact" className="button-flex-home">
+      <a
+        href="#contact"
+        style={{ marginTop: "40px" }}
+        className="button-flex-home"
+      >
+        <span className="button-flex-home-span"></span>
         Reach me, i am ready to work!
         <svg
           className="button__icon"

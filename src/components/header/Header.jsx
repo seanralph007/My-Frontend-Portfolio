@@ -56,6 +56,15 @@ function Header() {
             </li>
 
             <li className="nav-item">
+              <a href="#project" className="nav-link">
+                <i className="uil uil-scenery nav-icon"></i>
+                <div className="header-num">
+                  <span>03. </span> Works
+                </div>
+              </a>
+            </li>
+
+            <li className="nav-item">
               <a
                 href="#skills"
                 onClick={() => setActiveNav("#skills")}
@@ -65,7 +74,7 @@ function Header() {
               >
                 <i className="uil uil-file nav-icon"></i>
                 <div className="header-num">
-                  <span>03. </span> Skills
+                  <span>04. </span> Skills
                 </div>
               </a>
             </li>
@@ -82,16 +91,7 @@ function Header() {
               >
                 <i className="uil uil-briefcase-alt nav-icon"></i>
                 <div className="header-num">
-                  <span>04. </span> Certifications
-                </div>
-              </a>
-            </li>
-
-            <li className="nav-item">
-              <a href="#project" className="nav-link">
-                <i className="uil uil-scenery nav-icon"></i>
-                <div className="header-num">
-                  <span>05. </span> Works
+                  <span>05. </span> Certifications
                 </div>
               </a>
             </li>

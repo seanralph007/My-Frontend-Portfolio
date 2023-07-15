@@ -53,7 +53,7 @@ const Certificates = () => {
                 <h3 className="certificate-title">HTML</h3>
                 <span className="certificate-subtitle">FreeCodeCamp</span>
                 <div className="certificate-calendar">
-                  <i className="uil uil-calendar-alt"></i> 2021- Present
+                  <i className="uil uil-calendar-alt"></i> 2021- 2022
                 </div>
               </div>
 
@@ -75,7 +75,7 @@ const Certificates = () => {
                 <h3 className="certificate-title">Css</h3>
                 <span className="certificate-subtitle">FreeCodeCamp</span>
                 <div className="certificate-calendar">
-                  <i className="uil uil-calendar-alt"></i> 2021- Present
+                  <i className="uil uil-calendar-alt"></i> 2021- 2022
                 </div>
               </div>
             </div>
@@ -85,7 +85,7 @@ const Certificates = () => {
                 <h3 className="certificate-title">Javascript</h3>
                 <span className="certificate-subtitle">Udemy</span>
                 <div className="certificate-calendar">
-                  <i className="uil uil-calendar-alt"></i> 2021- Present
+                  <i className="uil uil-calendar-alt"></i> 2022- 2023
                 </div>
               </div>
 
@@ -107,7 +107,7 @@ const Certificates = () => {
                 <h3 className="certificate-title">React</h3>
                 <span className="certificate-subtitle">Udemy</span>
                 <div className="certificate-calendar">
-                  <i className="uil uil-calendar-alt"></i> 2021- Present
+                  <i className="uil uil-calendar-alt"></i> 2022- 2023
                 </div>
               </div>
             </div>
@@ -127,7 +127,7 @@ const Certificates = () => {
                   HighScoreTech - Nigeria
                 </span>
                 <div className="certificate-calendar">
-                  <i className="uil uil-calendar-alt"></i> 2021- Present
+                  <i className="uil uil-calendar-alt"></i> 2021- 2023
                 </div>
               </div>
 
@@ -151,7 +151,7 @@ const Certificates = () => {
                   Re-designed appwrite web
                 </span>
                 <div className="certificate-calendar">
-                  <i className="uil uil-calendar-alt"></i> 2021- Present
+                  <i className="uil uil-calendar-alt"></i> 2023
                 </div>
               </div>
             </div>

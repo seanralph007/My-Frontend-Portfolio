@@ -20,7 +20,13 @@ const About = () => {
         <div className="about-container-img">
           <img src={AboutImg} alt="about" className="about-img" />
           <Info />
-          <a download="" href={CV} className="button button-flex">
+          <a
+            download=""
+            href={CV}
+            className="button-flex-home"
+            style={{ marginTop: "10px" }}
+          >
+            <span className="button-flex-home-span"></span>
             Download My CV
             <svg
               className="button__icon"
