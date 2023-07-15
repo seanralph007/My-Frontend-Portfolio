@@ -59,33 +59,32 @@ const About = () => {
         <div className="about-data">
           <div className="about-description">
             <p>
-              Hi there! I'm Ifeanyi Ezeugwu, a passionate and experienced
-              frontend developer with a strong focus on creating beautiful and
-              user-friendly web interfaces. I have 3 years of professional
-              experience in translating design concepts into pixel-perfect,
-              responsive websites and web applications.
+              Hello there! I'm Ifeanyi Ezeugwu, a devoted and skilled frontend
+              developer who places a high priority on building aesthetically
+              pleasing and user-friendly online interfaces. I have three years
+              of professional experience converting design ideas into
+              pixel-perfect, responsive websites and web applications.
             </p>
             <p>
-              Throughout my career, I have worked on various projects,
-              collaborating closely with
-              <span> designers, and back-end developers</span>, to deliver
-              high-quality products that exceed client expectations. I am
-              skilled in using modern frontend frameworks and libraries,
-              enabling me to build interactive and dynamic user interfaces
-              efficiently.
+              I have worked on a variety of projects throughout my career,
+              closely coordinating with{" "}
+              <span> designers, and back-end developers</span>, to generate
+              high-quality solutions that surpass customer expectations. Because
+              of my proficiency with current frontend frameworks and libraries,
+              I can create dynamic and interactive user interfaces quickly.
             </p>
             <p>
-              Apart from technical skills, I am an
-              <span> excellent communicator</span> and a collaborative
-              <span> team player</span>. I enjoy working in an agile
-              environment, where I can contribute my ideas and expertise to help
-              the team achieve its goals.
+              In addition to my technical abilities, I have{" "}
+              <span>strong communication skills </span> and work well in a{" "}
+              <span>team environment.</span> I like working in an agile
+              environment where I can share my knowledge and ideas to support
+              the team in achieving its objectives.
             </p>
             <p>
-              If you're looking for a frontend developer who can bring your
-              vision to life and deliver exceptional user experiences, I would
-              love to chat with you. <span> Feel free to reach out</span>, and
-              let's create something amazing together!"
+              I'd be happy to speak with you if you're searching for a frontend
+              developer who can make your idea come to life and provide
+              outstanding user experiences. <span> Feel free to reach out</span>
+              , and let's create something fantastic together!"
             </p>
           </div>
         </div>

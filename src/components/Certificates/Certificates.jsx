@@ -127,7 +127,7 @@ const Certificates = () => {
                   HighScoreTech - Nigeria
                 </span>
                 <div className="certificate-calendar">
-                  <i className="uil uil-calendar-alt"></i> 2021- 2023
+                  <i className="uil uil-calendar-alt"></i> 2022- 2023
                 </div>
               </div>
 
@@ -148,7 +148,7 @@ const Certificates = () => {
               <div>
                 <h3 className="certificate-title">Appwrite hackathon</h3>
                 <span className="certificate-subtitle">
-                  Re-designed appwrite web
+                  Re-Designed the Landing Page with Login and Sign-in Authentication
                 </span>
                 <div className="certificate-calendar">
                   <i className="uil uil-calendar-alt"></i> 2023

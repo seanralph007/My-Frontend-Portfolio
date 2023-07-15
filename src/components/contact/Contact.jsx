@@ -48,10 +48,10 @@ const Contact = () => {
               <i className="bx bxl-whatsapp contact-card-icon"></i>
 
               <h3 className="contact-card-title">Whatsapp</h3>
-              <span className="contact-card-data">07069200690</span>
+              <span className="contact-card-data">+2347069200690</span>
 
               <a
-                href="https://api.whatsapp.com/send?phone=07069200690&text=Hello, more information!"
+                href="https://api.whatsapp.com/send?phone=+2347069200690&text=Hello, more information!"
                 rel="noopener noreferrer"
                 className="contact-button"
                 target="_blank"
@@ -114,8 +114,6 @@ const Contact = () => {
               </label>
               <textarea
                 name="purpose"
-                // cols="30"
-                // rows="10"
                 placeholder="Write me"
                 className="contact__form-input"
               ></textarea>
