@@ -306,4 +306,8 @@
     width: 22px;
     height: 22px;
   }
+
+  #button-flex-home {
+    margin-left: 20px;
+  }
 }
