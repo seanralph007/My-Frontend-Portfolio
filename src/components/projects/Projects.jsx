@@ -58,7 +58,6 @@ const Projects = () => {
             </div>
           </div>
         </div>
-
         <div className="work-overview ">
           <div className="work-flex grid">
             <div className="work-flex-description">
@@ -104,7 +103,6 @@ const Projects = () => {
             </div>
           </div>
         </div>
-
         <div className="work-overview ">
           <div className="work-flex grid">
             <div className="work-flex-img">
@@ -150,7 +148,6 @@ const Projects = () => {
             </div>
           </div>
         </div>
-
         <div className="work-overview ">
           <div className="work-flex grid">
             <div className="work-flex-description">
@@ -195,7 +192,6 @@ const Projects = () => {
             </div>
           </div>
         </div>
-
         <div className="work-overview ">
           <div className="work-flex grid">
             <div className="work-flex-img">
@@ -243,7 +239,14 @@ const Projects = () => {
           </div>
         </div>
 
-        <h1 className="more-works">More Projects in my GitHub Page</h1>
+        <a
+          href="https://www.github.com/Ify01"
+          rel="noopener noreferrer"
+          className="more-works"
+          target="_blank"
+        >
+          <h1 className="more-works">More in my GitHub Page</h1>
+        </a>
       </div>
     </section>
   );

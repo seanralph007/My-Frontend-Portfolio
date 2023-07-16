@@ -8,7 +8,8 @@
       {
         "ignore": [
           "scroll-behavior",
-          "backdrop-filter"
+          "backdrop-filter",
+          "inset"
         ]
       }
     ]
