@@ -4,6 +4,7 @@ import dashboard from "../../images/dashboard.png";
 import food from "../../images/food.png";
 import bank from "../../images/bank.png";
 import fitness from "../../images/fitness.png";
+import text from "../../images/text-io.png";
 
 const Projects = () => {
   return (
@@ -143,8 +144,8 @@ const Projects = () => {
               </div>
               <div className="work-project-stack">
                 <div className="react">React</div>
-                <div className="react">Syncfusion</div>
-                <div className="react">Tailwind</div>
+                <div className="react">Email Js</div>
+                <div className="react">Framer Motion</div>
               </div>
             </div>
           </div>
@@ -163,6 +164,7 @@ const Projects = () => {
               </div>
               <div className="work-project-stack">
                 <div className="react">React</div>
+                <div className="react">Firebase</div>
               </div>
             </div>
 
@@ -193,6 +195,56 @@ const Projects = () => {
             </div>
           </div>
         </div>
+
+        <div className="work-overview ">
+          <div className="work-flex grid">
+            <div className="work-flex-img">
+              <img src={text} alt="fitness" />
+
+              <div className="work-project-links">
+                <a
+                  href="https://github.com/Ify01/text-io"
+                  rel="noopener noreferrer"
+                  className="work-github"
+                  target="_blank"
+                >
+                  <i className="uil uil-github-alt"></i>
+                  <span> Github Link</span>
+                </a>
+
+                <a
+                  href="https://word-io.netlify.app/"
+                  rel="noopener noreferrer"
+                  className="work-github"
+                  target="_blank"
+                >
+                  <i className="uil uil-expand-from-corner"></i>
+                  <span> Demo</span>
+                </a>
+              </div>
+            </div>
+
+            <div className="work-flex-description">
+              <div className="work-project-title">Text.io</div>
+              <div className="work-project-text">
+                Text.io is where users can typically copy and paste the text
+                they want to summarize or input the URL of an article directly
+                into the web application. The text summarizer then processes the
+                input and generates a summary that captures the key points, main
+                ideas, and relevant details of the original text.
+              </div>
+              <div className="work-project-stack">
+                <div className="react">React</div>
+                <div className="react">Rapid Api</div>
+                <div className="react">Tailwind</div>
+                <div className="react">Redux</div>
+                <div className="react">vite</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <h1 className="more-works">More Projects in my GitHub Page</h1>
       </div>
     </section>
   );
