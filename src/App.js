@@ -9,24 +9,47 @@ import Home from "./components/home/Home";
 import Skills from "./components/skills/Skills";
 import Scroll from "./components/scroll/Scroll";
 import Projects from "./components/projects/Projects";
+import { useState } from "react";
+import { useEffect } from "react";
 // import { AnimatePresence, motion } from "framer-motion";
 
 function App() {
+  const [loading, setLoading] = useState(false);
+  useEffect(() => {
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+    }, 3000);
+  }, []);
+
   return (
     <div>
-      <Header />
+      {loading ? (
+        <div className="spinner-box">
+          <div className="configure-border-1">
+            <div className="configure-core"></div>
+          </div>
+          <div className="configure-border-2">
+            <div className="configure-core"></div>
+            <span>E.I</span>
+          </div>
+        </div>
+      ) : (
+        <>
+          <Header />
 
-      <main className="main">
-        <Home />
-        <About />
-        <Projects/>
-        <Skills />
-        {/* <Services /> */}
-        <Certificates />
-        <Contact />
-      </main>
-      <Footer />
-      <Scroll />
+          <main className="main">
+            <Home />
+            <About />
+            <Projects />
+            <Skills />
+            <Certificates />
+            <Contact />
+          </main>
+          <Footer />
+          <Scroll />
+        </>
+      )}
     </div>
   );
 }

@@ -11,9 +11,9 @@
   --hue: 0;
   --sat: 0%;
   --title-color: #ccd6f6;
-  --title-color-dark: #8892b0;;
+  --title-color-dark: #8892b0;
   --text-color: #8892b0;
-  --body-color: rgba(10, 25, 47, 0.85);
+  --body-color:  #080d30;;
   --container-color: #fff;
 
   /* font and typography */
@@ -74,7 +74,6 @@
 
 html {
   scroll-behavior: smooth;
-  background-color: rgba(10, 25, 47, 0.85);
 }
 
 body,
@@ -86,8 +85,10 @@ textarea {
 }
 
 body {
-  background-color: var(--body-color);
+  /* background-color: var(--body-color); */
   color: var(--text-color);
+  background: #080d30;
+  
 }
 
 h1,
@@ -119,7 +120,8 @@ img {
 /* resusable css classes */
 .section {
   padding: 4rem 0 1rem;
-  background-color: rgba(10, 25, 47, 0.85);
+  /* background-color: rgba(10, 25, 47, 0.85); */
+  /* background: #080d30; */
 }
 .section-title {
   font-size: var(--h1-font-size);
@@ -216,5 +218,93 @@ img {
   .container {
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
+  }
+}
+
+.spinner-box {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  position: fixed;
+  inset: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 99;
+  background: #080d30;
+}
+
+.configure-border-1 {
+  width: 70px;
+  height: 70px;
+  padding: 3px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(63, 249, 220);
+  animation: configure-clockwise 3s ease-in-out 0s infinite alternate;
+}
+
+.configure-border-2 {
+  width: 70px;
+  height: 70px;
+  padding: 3px;
+  /* left: -115px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(63, 249, 220);
+  transform: rotate(45deg);
+  animation: configure-xclockwise 3s ease-in-out 0s infinite alternate;
+  position: relative;
+}
+
+.configure-core {
+  width: 100%;
+  height: 100%;
+  background: #080d30;
+}
+.configure-border-2 span {
+  color: #64ffda;
+  text-align: center;
+  font-size: 20px;
+  position: absolute;
+}
+
+@keyframes configure-clockwise {
+  0% {
+    transform: rotate(0);
+  }
+  25% {
+    transform: rotate(90deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  75% {
+    transform: rotate(270deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes configure-xclockwise {
+  0% {
+    transform: rotate(45deg);
+  }
+  25% {
+    transform: rotate(-45deg);
+  }
+  50% {
+    transform: rotate(-135deg);
+  }
+  75% {
+    transform: rotate(-225deg);
+  }
+  100% {
+    transform: rotate(-315deg);
   }
 }
