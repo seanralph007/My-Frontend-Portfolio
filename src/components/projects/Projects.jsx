@@ -234,11 +234,10 @@ const Projects = () => {
                 ideas, and relevant details of the original text.
               </div>
               <div className="work-project-stack">
-                <div className="react">React</div>
+                <div className="react">vite</div>
                 <div className="react">Rapid Api</div>
                 <div className="react">Tailwind</div>
                 <div className="react">Redux</div>
-                <div className="react">vite</div>
               </div>
             </div>
           </div>
