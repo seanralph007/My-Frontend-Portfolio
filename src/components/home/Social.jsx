@@ -12,14 +12,14 @@ const Social = () => {
       >
         <i className="uil uil-twitter-alt"></i>
       </a>
-      <a
+      {/* <a
         href="https://www.instagram.com/ifeanyi_mindset"
         rel="noopener noreferrer"
         className="home-social-icon"
         target="_blank"
       >
         <i className="uil uil-instagram"></i>
-      </a>
+      </a> */}
       <a
         href="https://www.github.com/Ify01"
         rel="noopener noreferrer"

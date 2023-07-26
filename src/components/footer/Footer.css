@@ -54,6 +54,15 @@
   font-size: var(--small-font-size);
 }
 
+.footer-copy-tel {
+  /* display: flex;
+  justify-content: center; */
+  margin-top: 1rem;
+  color: #a8b2de;
+  text-align: center;
+  font-size: var(--small-font-size);
+}
+
 /* large device */
 @media screen and (max-width: 992px) {
   .footer-social-link {

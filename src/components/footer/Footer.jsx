@@ -15,12 +15,12 @@ export const Footer = () => {
             <i className="bx bxl-twitter"></i>
           </a>
           <a
-            href="https://www.instagram.com/ifeanyi_mindset"
+            href="https://www.linkedin.com/in/ezeugwu-ifeanyi-1a996a15b"
             rel="noopener noreferrer"
             className="footer-social-link"
             target="_blank"
           >
-            <i className="bx bxl-instagram"></i>
+            <i className="uil uil-linkedin-alt"></i>
           </a>
           <a
             href="https://www.github.com/Ify01"
@@ -32,6 +32,7 @@ export const Footer = () => {
           </a>
         </div>
 
+        <div className="footer-copy-tel">Tel: +2347069200690</div>
         <span className="footer-copy">Designed & Built by Ifeanyi Ezeugwu</span>
       </div>
     </footer>
