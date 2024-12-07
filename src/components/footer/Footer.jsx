@@ -7,7 +7,7 @@ export const Footer = () => {
       <div className="footer-container container">
         <div className="footer-social">
           <a
-            href="https://www.twitter.com/Ifeanyi_arochim"
+            href="https://www.x.com/Ify_Ezeugwu"
             rel="noopener noreferrer"
             className="footer-social-link"
             target="_blank"
