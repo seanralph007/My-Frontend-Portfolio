@@ -20,7 +20,7 @@ function Header() {
     <header className="header">
       <nav className="nav container">
         <a href="index.html" className="nav-logo">
-          E I
+          C O
         </a>
 
         <div className="nav-menu">
