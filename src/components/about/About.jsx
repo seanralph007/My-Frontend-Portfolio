@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import AboutImg from "../../images/my photo.jpg";
+import AboutImg from "../../images/my new look.jpg";
 import CV from "../../images/ify.pdf";
 import Info from "./Info";
 
@@ -20,12 +20,12 @@ const About = () => {
         <div className="about-container-img">
           <img src={AboutImg} alt="about" className="about-img" />
           <Info />
-          <a
+          {/* <a
             download=""
             href={CV}
             className="button-flex-home"
             style={{ marginTop: "10px" }}
-          >
+          > */}
             <span className="button-flex-home-span"></span>
             Download My CV
             <svg
