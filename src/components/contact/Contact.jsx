@@ -32,11 +32,11 @@ const Contact = () => {
 
               <h3 className="contact-card-title">Gmail</h3>
               <span className="contact-card-data">
-                Ifeanyiezeugwu0@gmail.com
+                odobicaleb@gmail.com
               </span>
 
               <a
-                href="mailto:Ifeanyiezeugwu0@gmail.com.com"
+                href="mailto:odobicaleb@gmail.com"
                 className="contact-button"
               >
                 write me
@@ -65,10 +65,10 @@ const Contact = () => {
               <i className="bx bxl-twitter contact-card-icon"></i>
 
               <h3 className="contact-card-title">X fomaerly Twitter</h3>
-              <span className="contact-card-data">Ify_Ezeugwu</span>
+              <span className="contact-card-data">odobicaleb</span>
 
               <a
-                href="https://www.twitter.com/Ifeanyi_arochim"
+                href="https://www.twitter.com/odobicaleb"
                 rel="noopener noreferrer"
                 className="contact-button"
                 target="_blank"

@@ -1,3 +1,5 @@
+Authour
+Caleb Odobi
 Ezeugwu Ifeanyi
 
 I build things for the web
@@ -6,7 +8,7 @@ I am a passionate frontend developer with expertise in
 creating beautiful and responsive user interfaces, skilled in Frontend
 Frameworks.
 
-Hi there! I'm Ifeanyi Ezeugwu, a passionate and experienced
+Hi there! I'm passionate and experienced
 frontend developer with a strong focus on creating beautiful and
 user-friendly web interfaces. I have 3 years of professional
 experience in translating design concepts into pixel-perfect,
