@@ -32,7 +32,7 @@ export const Footer = () => {
           </a>
         </div>
 
-        <div className="footer-copy-tel">Tel: +23408147819905</div>
+        <div className="footer-copy-tel">Tel: +2347069200690</div>
         <span className="footer-copy">Designed & Built by Ifeanyi Ezeugwu</span>
       </div>
     </footer>

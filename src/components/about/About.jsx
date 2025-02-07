@@ -59,7 +59,7 @@ const About = () => {
         <div className="about-data">
           <div className="about-description">
             <p>
-              Hello there! I'm Caleb Odobi, a devoted and skilled frontend
+              Hello there! I'm Ifeanyi Ezeugwu Christain, a devoted and skilled frontend
               developer who places a high priority on building aesthetically
               pleasing and user-friendly online interfaces. I have three years
               of professional experience converting design ideas into
