@@ -55,10 +55,10 @@ const Data = () => {
         </svg>
         my name is,
       </p>
-      <h1 className="home-title">Ifeanyi Ezeugwu Christain</h1>
+      <h1 className="home-title">Kingsley Chukwudi Okoro</h1>
       <h1 className="home-description">I build things for the web</h1>
       <p className="home-intro2">
-        I am a passionate <span>frontend developer</span> with expertise in
+        I am a passionate <span>full-stack developer</span> with expertise in
         creating beautiful and responsive user interfaces, skilled in Frontend
         Frameworks.
       </p>
